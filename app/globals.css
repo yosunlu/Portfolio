@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@200..900&display=swap" rel="stylesheet');
+
+@keyframes sequenceGreen {
+    0% { color: #0000CD; }  /* 初始藍色 */
+    20% { color: #32CD32; } /* 變綠色 */
+    40% { color: #0000CD; } /* 回到藍色 */
+    100% { color: #0000CD; } /* 保持藍色 */
+  }
+  
