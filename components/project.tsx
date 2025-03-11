@@ -21,7 +21,7 @@ export default function Project({
   githubUrl,
 }: ProjectProps) {
   return (
-    <div className="flex flex-col relative mb-10 border-b border-gray-400 pb-16 ">
+    <div className="flex flex-col relative mb-12 border-b border-gray-400 pb-14">
       <div className="mb-2 text-xl font-medium text-gray-600">{date}</div>
 
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
