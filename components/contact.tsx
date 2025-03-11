@@ -16,7 +16,7 @@ export default function Contact() {
       <div className="mt-12 text-center font-NS text-normal text-[#666]">
         Email {" "} 
         <a
-          className="text-[#a7d12a] font-semiboldhover:underline"
+          className="text-[#a7d12a] font-semiboldhover:underline font-semibold"
           href="mailto:ylu437@wisc.edu" 
         >
           ylu437@wisc.edu
@@ -43,7 +43,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 border rounded-xl transition duration-200 hover:border-2 hover:border-emerald-700 focus:border-emerald-700 focus:outline-none"
+          className="h-14 px-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#a7d12a] focus:border-[#a7d12a] focus:outline-none"
           name="senderEmail"
           placeholder="Your email"
           type="email"
@@ -51,7 +51,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <textarea
-          className="h-64 p-4 border rounded-xl transition duration-200 hover:border-2 hover:border-emerald-700 focus:border-emerald-700 focus:outline-none"
+          className="h-64 p-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#a7d12a] focus:border-[#a7d12a] focus:outline-none"
           name="message"
           placeholder="Your message"
           required
