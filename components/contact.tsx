@@ -6,7 +6,7 @@ import SubmitBtn from "./submit-btn";
 
 export default function Contact() {
   return (
-    <section className="flex flex-col max-w-[570px] justify-center ml-[9%] 2xl:ml-[15%]">
+    <section className="flex flex-col max-w-[525px] justify-center ml-[9%] 2xl:ml-[15%]">
       <div className="font-bold pt-32"></div>
 
       <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">
@@ -23,7 +23,8 @@ export default function Contact() {
         </a>
         , visit my{" "} 
         <a className="text-[#a7d12a] font-semibold hover:underline"
-          href="https://www.linkedin.com/in/yushanlu1031/">
+          href="https://www.linkedin.com/in/yushanlu1031/"
+          target="_blank">
           LinkedIn 
         </a>
         , or send me your message here!

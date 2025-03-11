@@ -8,7 +8,7 @@ export default function About() {
       <div className="font-bold pt-32"></div>
 
       <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">
-        About / 關於
+        About / 簡介
       </div>
 
       <div className="font-NS font-normal text-[1rem] text-[#666]">
