@@ -7,15 +7,12 @@ import Contact from "@/components/contact";
 
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState("");
   const [delayedSection, setDelayedSection] = useState(""); // Stores the section to display
   const [isVisible, setIsVisible] = useState(false); // Controls fade-in effect
 
   useEffect(() => {
     const handleHashChange = () => {
       const currentHash = window.location.hash;
-      setActiveSection(currentHash);
-
       // 1. Start fade-out effect
       setIsVisible(false);
 
