@@ -14,14 +14,14 @@ export default function Contact() {
       </div>
 
       <div className="mt-12 text-center font-NS text-normal text-[#666]">
-        Email {" "} {/* eslint-disable-next-line react/no-unescaped-entities */}
+        Email {" "} 
         <a
           className="text-[#a7d12a] font-semiboldhover:underline"
-          href="mailto:ylu437@wisc.edu"
+          href="mailto:ylu437@wisc.edu" 
         >
           ylu437@wisc.edu
         </a>
-        , visit my{" "} {/* eslint-disable-next-line react/no-unescaped-entities */}
+        , visit my{" "} 
         <a className="text-[#a7d12a] font-semibold hover:underline"
           href="https://www.linkedin.com/in/yushanlu1031/">
           LinkedIn 
