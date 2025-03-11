@@ -81,7 +81,7 @@ export default function Header() {
                 rel={isExternal ? "noopener noreferrer" : undefined}
                 download={isDownload ? true : undefined}
                 className={`font-NS italic font-extrabold transition-colors duration-500 
-                  text-2xl 2xl:text-3xl
+                  text-2xl
                   ${activeSection === link.hash ? "text-[#a7d12a] underline" : "text-[#0000CD]"} 
                   hover:text-[#a7d12a]`}
               >

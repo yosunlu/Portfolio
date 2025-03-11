@@ -4,7 +4,7 @@ import { projectsData } from "../lib/data";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col max-w-[550px] justify-center ml-[9%] 2xl:ml-[15%]">
+    <section className="flex flex-col max-w-[525px] justify-center ml-[9%] 2xl:ml-[15%]">
       <div className="font-bold pt-32"></div>
 
       <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">

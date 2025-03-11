@@ -6,7 +6,7 @@ import bigDB from "@/public/bigData.png";
 import DB764Img from "@/public/764.png";
 export const links = [
   {
-    name: "ABOUT 關於",
+    name: "ABOUT 簡介",
     hash: "#about",
   },
   {
@@ -82,9 +82,9 @@ export const projectsData = [
       URL:""
     },
     {
-      title: "120GB External Merge sort",
+      title: "120 GB External Merge sort",
       date: "Course-Project | 2023",
-      description: "Project completed for CS764: Advanced DB. Emulates SSD, HDD, CPU, and DRAM and implemented an external merge sort, capable of sorting self-generated 120 GB of data, consists of 120 millions of 1KB entries",
+      description: "Project completed for CS764: Advanced DB. Emulates SSD, HDD, CPU, and DRAM and implemented an external merge sort, capable of sorting self-generated 120 GB of data, consists of 120 millions of 1KB entries.",
       mandarin: "完成於 CS764 進階資料庫課程，模擬 SSD、HDD、CPU 與 DRAM，並實作外部合併排序演算法，成功排序120GB自產資料。",
       tags: ["C++", "Quicksort", "Tournament trees", " Offset-value coding"],
       imageUrl: DB764Img,
