@@ -46,7 +46,7 @@ export default function Header() {
     >
       {/* Name Section - Always Visible */}
       <div className="flex flex-col items-end">
-        <div className="font-NS font-extrabold text-4xl italic text-[#0000CD] leading-none 2xl:text-5xl">
+        <div className="font-NS font-extrabold text-4xl italic text-[#126782] leading-none 2xl:text-5xl">
           <a
             href={"/"}
             onClick={() => {
@@ -56,7 +56,7 @@ export default function Header() {
             YUSHAN LU
           </a>
         </div>
-        <div className="font-NS font-bold text-2xl 2xl-text-3xl italic text-[#a7d12a] leading-none relative pt-3 2xl:pt-3">
+        <div className="font-NS font-bold text-2xl 2xl-text-3xl italic text-[#FF7700] leading-none relative pt-3 2xl:pt-3">
           呂又山
         </div>
       </div>
@@ -82,8 +82,8 @@ export default function Header() {
                 download={isDownload ? true : undefined}
                 className={`font-NS italic font-extrabold transition-colors duration-500 
                   text-2xl
-                  ${activeSection === link.hash ? "text-[#a7d12a] underline" : "text-[#0000CD]"} 
-                  hover:text-[#a7d12a]`}
+                  ${activeSection === link.hash ? "text-[#FF7700] underline" : "text-[#126782]"} 
+                  hover:text-[#FF7700]`}
               >
                 {link.name}
               </a>

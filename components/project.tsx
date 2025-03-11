@@ -25,7 +25,7 @@ export default function Project({
       <div className="mb-2 text-xl font-medium text-gray-600">{date}</div>
 
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-        <h2 className="mt-4 text-3xl font-bold text-[#0000CD] hover:underline">{title}</h2>
+        <h2 className="mt-4 text-3xl font-bold text-[#126782] hover:underline">{title}</h2>
       </a>
 
       <div className="mt-2">

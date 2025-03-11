@@ -9,20 +9,20 @@ export default function Contact() {
     <section className="flex flex-col max-w-[525px] justify-center ml-[9%] 2xl:ml-[15%]">
       <div className="font-bold pt-32"></div>
 
-      <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">
+      <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#FF7700] items-center justify-center">
         Contact / 聯絡
       </div>
 
       <div className="mt-12 text-center font-NS text-normal text-[#666]">
         Email {" "} 
         <a
-          className="text-[#a7d12a] font-semiboldhover:underline font-semibold"
+          className="text-[#FF7700] font-semiboldhover:underline font-semibold"
           href="mailto:ylu437@wisc.edu" 
         >
           ylu437@wisc.edu
         </a>
         , visit my{" "} 
-        <a className="text-[#a7d12a] font-semibold hover:underline"
+        <a className="text-[#FF7700] font-semibold hover:underline"
           href="https://www.linkedin.com/in/yushanlu1031/"
           target="_blank">
           LinkedIn 
@@ -44,7 +44,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#a7d12a] focus:border-[#a7d12a] focus:outline-none"
+          className="h-14 px-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#FF7700] focus:border-[#FF7700] focus:outline-none"
           name="senderEmail"
           placeholder="Your email"
           type="email"
@@ -52,7 +52,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <textarea
-          className="h-64 p-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#a7d12a] focus:border-[#a7d12a] focus:outline-none"
+          className="h-64 p-4 border rounded-xl transition duration-200 hover:border-2 hover:border-[#FF7700] focus:border-[#FF7700] focus:outline-none"
           name="message"
           placeholder="Your message"
           required
