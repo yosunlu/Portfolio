@@ -4,14 +4,15 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="ml-16 flex flex-col text-3xl justify-center w-1/2">
-      <div className="font-bold pt-20"></div>
+    <section className="flex flex-col max-w-[400px] justify-center ml-[9%] 2xl:ml-[15%] 2xl:max-w-[450px]">
 
-      <div className="flex pt-10 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">
+      <div className="font-bold pt-32"></div>
+
+      <div className="flex pt-16 font-NS font-medium text-2xl italic text-[#a7d12a] items-center justify-center">
         About / 關於
       </div>
 
-      <div className="font-NS font-normal text-sm">
+      <div className="font-NS font-normal text-[1rem]">
         {/* English Version */}
         <h3 className="pt-11 leading-normal">
           <span className="font-semibold">Yushan Lu 呂又山</span> views himself as a{" "}
@@ -108,8 +109,14 @@ export default function About() {
         width={0} // ✅ Allows auto-scaling
         height={0} // ✅ Allows auto-scaling
         sizes="100vw" // ✅ Ensures full responsiveness
-        className="w-full mt-16 pb-32"
+        className="w-full mt-16"
       />
+
+      <h3 className='mt-5 pb-32 italic text-gray-500 text-sm'>
+        Photo by Yi-Fang Yu
+        <br />
+        攝影：余宜芳
+      </h3>
 
     </section>
   )

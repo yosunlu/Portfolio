@@ -37,15 +37,15 @@ export default function Home() {
 
   return (
     <main>
-      <Container>
+      <div className="flex flex-row">
         {/* Header - Always present */}
-        <div className="flex-shrink-0 w-1/4">
+        <div className="w-1/4 ml-20 2xl:ml-40">
           <Header />
         </div>
 
         {/* Content - Fades in and out smoothly */}
         <div
-          className={`w-3/4 flex-grow transition-opacity duration-700 ${
+          className={`w-3/4 transition-opacity duration-700  ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -53,8 +53,7 @@ export default function Home() {
           {delayedSection === "#projects" && <Projects />}
           {delayedSection === "#contact" && <Contact />}
         </div>
-        
-      </Container>
+      </div>
       
     </main>
   );

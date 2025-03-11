@@ -14,7 +14,10 @@ export default {
       },
       fontFamily:{
         NS: ["'Noto Serif HK'", "sans-serif"]
-      }
+      },
+      screens: {
+        '2xl': '120rem',        
+      },
     },
   },
   plugins: [],
