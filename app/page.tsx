@@ -1,11 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import Container from "@/components/container";
 import About from "@/components/about";
 import Header from "@/components/header";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
-import Footer from "@/components/footer";
+
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("");

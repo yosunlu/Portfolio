@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col max-w-[400px] justify-center ml-[9%] 2xl:ml-[15%] 2xl:max-w-[450px]">
+    <section className="flex flex-col max-w-[550px] justify-center ml-[9%] 2xl:ml-[15%]">
 
       <div className="font-bold pt-32"></div>
 
@@ -12,10 +12,10 @@ export default function About() {
         About / 關於
       </div>
 
-      <div className="font-NS font-normal text-[1rem]">
+      <div className="font-NS font-normal text-[1rem] text-[#666]">
         {/* English Version */}
         <h3 className="pt-11 leading-normal">
-          <span className="font-semibold">Yushan Lu 呂又山</span> views himself as a{" "}
+          <span className="font-semibold text-black">Yushan Lu 呂又山</span> views himself as a{" "}
           <span className="text-[#a7d12a] font-semibold">backend developer</span>, 
           but also crafts elegant and functional frontends when needed. 
           He holds a master's degree in Computer Science from the 
@@ -60,7 +60,7 @@ export default function About() {
 
         {/* Mandarin Version */}
         <h3 className="pt-11 leading-normal text-[#666]">
-          <span className="text-[#a7d12a] font-semibold">呂又山</span> 是一名
+          <span className="text-black font-semibold">呂又山</span> 是一名
           <span className="text-[#a7d12a] font-semibold">後端開發者</span>，
           但在需要時，也能打造優雅且實用的前端。
           他畢業於威斯康辛大學麥迪遜分校 (University of Wisconsin-Madison) 的資工碩士，並正在尋找

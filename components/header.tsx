@@ -68,19 +68,27 @@ export default function Header() {
               isNavVisible ? "opacity-100" : "opacity-0 pointer-events-none"
             }`}
         >
-          {links.map((link) => (
-            <a
-              key={link.hash}
-              href={link.hash}
-              onClick={() => setIsNavVisible(false)}
-              className={`font-NS italic font-extrabold transition-colors duration-500 
-                text-2xl 2xl:text-3xl
-                ${activeSection === link.hash ? "text-[#a7d12a] underline" : "text-[#0000CD]"} 
-                hover:text-[#a7d12a]`}
-            >
-              {link.name}
-            </a>
-          ))}
+          {links.map((link) => {
+            const isExternal = link.hash.startsWith("http");
+            const isDownload = link.hash.endsWith(".pdf");
+
+            return (
+              <a
+                key={link.hash}
+                href={link.hash}
+                onClick={() => !isExternal && !isDownload && setIsNavVisible(false)}
+                target={isExternal ? "_blank" : "_self"}
+                rel={isExternal ? "noopener noreferrer" : undefined}
+                download={isDownload ? true : undefined}
+                className={`font-NS italic font-extrabold transition-colors duration-500 
+                  text-2xl 2xl:text-3xl
+                  ${activeSection === link.hash ? "text-[#a7d12a] underline" : "text-[#0000CD]"} 
+                  hover:text-[#a7d12a]`}
+              >
+                {link.name}
+              </a>
+            );
+          })}
       </nav>
 
     </header>
