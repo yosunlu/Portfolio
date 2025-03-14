@@ -15,7 +15,7 @@ export default function About() {
       <div className="font-NS font-normal text-[1rem] text-[#666]">
         {/* English Version */}
         <h3 className="pt-11 leading-normal">
-          <span className="font-semibold text-black">Yushan Lu 呂又山</span> views himself as a{" "}
+          <span className="font-semibold text-black">Yushan Lu 呂又山</span> is a{" "}
           <span className="text-[#FF7700] font-semibold">backend developer</span>, 
           but also crafts elegant and functional frontends when needed. 
           He holds a master's degree in Computer Science from the 
@@ -40,7 +40,7 @@ export default function About() {
           </a>.
         </h3>
         <h3 className="pt-4 leading-normal">
-          Outside of development, he enjoys surfing, watching films, and cooking. 
+          Outside of development, he enjoys surfing, snowboarding, reading, and cooking. 
           He is also an enthusiast of{" "}
           <span className="text-[#FF7700] font-semibold">Taiwanese indie music</span>.
         </h3>
