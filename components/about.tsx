@@ -82,7 +82,7 @@ export default function About() {
           上查閱。
         </h3>
         <h3 className="pt-4 leading-normal text-[#666]">
-          工作之外，他熱愛衝浪、電影與烹飪，同時也是
+          工作之外，他熱愛衝浪、滑雪、閱讀，與烹飪，同時也是
           <span className="text-[#FF7700] font-semibold">台灣獨立音樂</span>
           的愛好者。
         </h3>
